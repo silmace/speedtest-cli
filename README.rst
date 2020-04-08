@@ -23,58 +23,6 @@ speedtest-cli works with Python 2.4-3.7
         :target: https://pypi.python.org/pypi/speedtest-cli/
         :alt: Versions
 
-Installation
-------------
-
-pip / easy\_install
-~~~~~~~~~~~~~~~~~~~
-
-::
-
-    pip install speedtest-cli
-
-or
-
-::
-
-    easy_install speedtest-cli
-
-Github
-~~~~~~
-
-::
-
-    pip install git+https://github.com/sivel/speedtest-cli.git
-
-or
-
-::
-
-    git clone https://github.com/sivel/speedtest-cli.git
-    cd speedtest-cli
-    python setup.py install
-
-Just download (Like the way it used to be)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-::
-
-    wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
-    chmod +x speedtest-cli
-
-or
-
-::
-
-    curl -Lo speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
-    chmod +x speedtest-cli
-
-Usage
------
-
-::
-
-    $ speedtest-cli -h
     usage: speedtest-cli [-h] [--no-download] [--no-upload] [--single] [--bytes]
                          [--share] [--simple] [--csv]
                          [--csv-delimiter CSV_DELIMITER] [--csv-header] [--json]
@@ -85,7 +33,6 @@ Usage
     Command line interface for testing internet bandwidth using speedtest.net.
     --------------------------------------------------------------------------
     https://github.com/sivel/speedtest-cli
-
     optional arguments:
       -h, --help            show this help message and exit
       --no-download         Do not perform download test
